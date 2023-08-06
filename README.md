@@ -1,0 +1,2 @@
+# aniloggd
+Totally not MAL
