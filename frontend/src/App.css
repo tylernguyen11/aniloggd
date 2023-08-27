@@ -45,6 +45,10 @@ body {
   background-color: #282c34;
 }
 
+p {
+  color: white
+}
+
 .App {
   text-align: center;
 }

@@ -1,8 +1,12 @@
 import React from 'react';
+import AnimeSearch from '../components/AnimeSearch'
  
 const Anime = () => {
     return (
-        <h1>Anime</h1>
+        <div>
+            <h1>Anime</h1>
+            <AnimeSearch></AnimeSearch>
+        </div>
     );
 };
  

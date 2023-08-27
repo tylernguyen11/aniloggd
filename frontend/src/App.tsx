@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom'
 import {Anime, CreateAccount, Lists, Members, SignIn, Home} from './pages/'
 import Navbar from './components/Navbar'
+import AnimeDetails from './components/AnimeDetails'
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/signin" element={<SignIn/>} />
         <Route path="/create-account" element={<CreateAccount/>} />
         <Route path="/anime" element={<Anime/>} />
+        <Route path="/anime/:mal_id" element={<AnimeDetails/>} />
         <Route path="/lists" element={<Lists/>} />
         <Route path="/members" element={<Members/>} />
       </Routes>
